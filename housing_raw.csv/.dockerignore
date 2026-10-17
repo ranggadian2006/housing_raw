@@ -1,0 +1,4 @@
+*.ipynb
+logs*/
+__pycache__/
+housing_raw.csv
