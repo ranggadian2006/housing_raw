@@ -1,0 +1,78 @@
+{
+  "n_predictions": 300,
+  "n_feedback": 300,
+  "latency_p95_ms": 58.5,
+  "performance": {
+    "n": 300,
+    "MAE": 40349.9,
+    "R2": 0.736,
+    "MAE_baseline": 39298.8,
+    "R2_baseline": 0.761
+  },
+  "alerts": [],
+  "drift": [
+    {
+      "fitur": "latitude",
+      "psi": 0.059,
+      "ks_stat": 0.07,
+      "ks_pvalue": 0.1191,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "housing_median_age",
+      "psi": 0.035,
+      "ks_stat": 0.053,
+      "ks_pvalue": 0.4002,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "total_rooms",
+      "psi": 0.032,
+      "ks_stat": 0.033,
+      "ks_pvalue": 0.9122,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "population",
+      "psi": 0.031,
+      "ks_stat": 0.028,
+      "ks_pvalue": 0.9728,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "longitude",
+      "psi": 0.028,
+      "ks_stat": 0.064,
+      "ks_pvalue": 0.1821,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "median_income",
+      "psi": 0.028,
+      "ks_stat": 0.044,
+      "ks_pvalue": 0.6218,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "households",
+      "psi": 0.023,
+      "ks_stat": 0.03,
+      "ks_pvalue": 0.9525,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "total_bedrooms",
+      "psi": 0.013,
+      "ks_stat": 0.031,
+      "ks_pvalue": 0.9396,
+      "status": "STABIL"
+    },
+    {
+      "fitur": "ocean_proximity",
+      "psi": 0.013,
+      "ks_stat": 0.033,
+      "ks_pvalue": 0.9122,
+      "status": "STABIL"
+    }
+  ]
+}
